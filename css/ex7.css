@@ -1,0 +1,71 @@
+#principal{
+   width: 500px;
+   height: 235px;
+   /*
+   background-image: url("../img/arvore.png");
+   background-repeat: no-repeat;  
+   background-position: bottom right;
+   background-color: #2B7A31 ;
+  
+   */
+   background: url("../img/arvore.png") no-repeat bottom right #C4D10E ;
+   margin: 500 0px 0px 0px;
+ 
+   border: 1px;
+   border-style:dotted;
+   border-color: #F10707;
+   border-bottom-style: solid;
+   border-bottom-width: 5px;
+   border-radius: 100px;
+   border-top-right-radius: 205px;
+   border-top-left-radius: 100px;
+
+   box-shadow: 55px 155px 5px 55px #320ED1;
+   
+   
+}
+
+h1{
+      padding-left: 5px;
+      padding-bottom: 5px;
+      margin-bottom:  21px;
+      font-size: 20px;
+      text-align: center;
+      font-family: "comic sans ms",Verdana, sans-serif;
+      font-variant: small-caps;
+      text-align: justify;
+      color: #DD26A6;
+      word-spacing: 0.2cm
+      
+
+}
+p{
+    padding-left: 25px;
+    padding-right: 20px;
+    margin-bottom: 25px;
+    color: rgb(74, 149, 255);
+    letter-spacing: 0.02cm;
+    word-spacing: 0.2cm;
+    text-indent: 0.8cm;
+
+}
+
+ul{
+    padding-left: 50px;
+    list-style-type: hiragana;
+}
+ul li{
+    height: 50px;
+    color:rgba(45, 255, 42,0.7); 
+    font-weight: bold;
+}
+.destacado {
+            text-decoration: underline;
+            text-transform: uppercase;
+
+            
+}
+hr{
+    color: #C4D10E;
+    border-top-style: double;
+}
